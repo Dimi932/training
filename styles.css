@@ -1,0 +1,100 @@
+body {
+  margin: 10%;
+  background-color: hsl(0, 0%, 81%);
+}
+
+img {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+div {
+  border-radius: 3%;
+  font-size: 13px;
+  font-family: Barlow Semi Condensed;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+
+}
+
+p {
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+svg {
+  background-image: url();
+  position: absolute;
+  right: 60px;
+}
+
+.Daniel {
+  width: 35%;
+  height: 40%;
+  background-color: hsl(263, 55%, 52%);
+position: absolute;
+top:15%;
+color: #ffffff;
+}
+
+.Patric {
+  width:35%;
+  height: 40%;
+  background-color: hsl(219, 29%, 14%);
+  position: absolute;
+  top: 57.5%;
+  left:32.5%;
+  color: #ffffff;
+}
+
+.Jonthan {
+  width: 20%;
+  height: 40%;
+  background-color: hsl(217, 19%, 35%);
+  position: absolute;
+  left:47.5%;
+  top: 15%;
+  color: #ffffff;
+  }
+
+  .Janette {
+  width:20%;
+  height: 40%;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 57.5%;
+  }
+
+.Kira {
+  width:20%;
+  height: 82.5%;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 15%;
+  left:70%;
+}
+.name {
+  margin: 20px auto 0;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.graduate {
+margin-top: 0;
+font-weight: 600;
+opacity: 0.5
+}
