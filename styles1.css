@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, input {
+  font-family: 'Barlow Semi Condensed';
+}
+body {
+  background-color: hsl(0, 0%, 81%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+img {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+section {
+  padding: 20px;
+}
+h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+p {
+  opacity: 0.7;
+  font-size: 13px;
+}
+.name {
+margin-top: 8px;
+opacity: 1;
+}
+.graduate {
+  opacity: 0.5;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.Daniel {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
+  border-radius: 8px;
+  overflow: none;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0;
+  color: hsl(210, 46%, 95%);
+}
+.Jonthan {
+background-color: hsl(217, 19%, 35%);
+border-radius: 8px;
+overflow: none;
+color: hsl(210, 46%, 95%);
+}
+.Kira {
+background-color: White;
+grid-row: span 2;
+border-radius: 8px;
+overflow: none;
+}
+.Janette {
+  background-color: White;
+  border-radius: 8px;
+  overflow: none;
+}
+.Patric {
+background-color: hsl(219, 29%, 14%);
+grid-column: span 2;
+border-radius: 8px;
+overflow: none;
+color: hsl(210, 46%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    grid-column: span 4;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+
+  .box {
+  padding: 16px;
+  }
+  .Kira {
+    grid-column: span 4;
+
+  }
+  .Jonthan, .Janette {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 600px) {
+
+  .box {
+    padding: 8px;
+
+  }
+  .Daniel, .Jonthan, .Janette, .Kira, .Patric   {
+grid-column: span 4;
+  }
+}
